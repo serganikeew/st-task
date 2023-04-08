@@ -4,15 +4,14 @@
 Вывести новую строку на экран. Напечатать, отличается ли новая строка от исходной.
 """
 
-# Переменные
-
 s = input()
-lens = len(s)
 n = int(input())
 c = input()
 string = ''
 
-string = str(s[:(lens - n)] + c + s[(lens - n):])
+string = s[:(n)] + c + s[(n + 1):]
+
+print(string)
 
 if string == s:
     print('Не отличается.')
