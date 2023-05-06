@@ -1,5 +1,5 @@
 k = input()
-n = 0
+x = k 
 
 def factorial(n):
     fact = 1
@@ -7,5 +7,7 @@ def factorial(n):
         fact *= num
     return fact 
 
-while factorial(n) != k:
-    n = n + 1 
+while factorial(x) != k:
+    x = k - 1
+
+print(factorial(x) == k)
