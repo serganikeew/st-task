@@ -1,4 +1,4 @@
-k = input()
+k = int(input())
 x = k 
 
 def factorial(n):
